@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1600" height="650" viewBox="0 0 1600 650" role="img"
+     aria-labelledby="title desc">
+  <title id="title">Hi, I'm Mohammad — Van</title>
+  <desc id="desc">A modern camper van driving along a quiet road through a minimalist forest at dusk.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop offset="0" stop-color="#101b2a"/>
+      <stop offset=".58" stop-color="#263b4a"/>
+      <stop offset="1" stop-color="#d18a61"/>
+    </linearGradient>
+    <linearGradient id="horizon" x2="0" y2="1">
+      <stop stop-color="#f2b17b" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#f2b17b" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="vanBody" x2="0" y2="1">
+      <stop stop-color="#f5f3e9"/>
+      <stop offset=".55" stop-color="#d9ddd7"/>
+      <stop offset="1" stop-color="#929d9d"/>
+    </linearGradient>
+    <linearGradient id="glass" x2="0" y2="1">
+      <stop stop-color="#526a75"/>
+      <stop offset="1" stop-color="#182b38"/>
+    </linearGradient>
+    <linearGradient id="road" x2="0" y2="1">
+      <stop stop-color="#46515a"/>
+      <stop offset="1" stop-color="#171f28"/>
+    </linearGradient>
+    <linearGradient id="lamp" x2="0" y2="1">
+      <stop stop-color="#fff5c7"/>
+      <stop offset="1" stop-color="#f3a75d"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-40%" width="160%" height="200%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+    <g id="pine">
+      <path d="M0 0 L-34 74 H-17 L-48 132 H-23 L-59 198 H59 L23 132 H48 L17 74 H34 Z" fill="#152b32"/>
+      <path d="M0 22 L-22 79 H-9 L-35 133 H-13 L-43 188 H-24 L0 151 L24 188 H43 L13 133 H35 L9 79 H22 Z" fill="#203d40" opacity=".8"/>
+      <path d="M0 198 V250" stroke="#17252a" stroke-width="12"/>
+    </g>
+    <g id="wheel">
+      <circle r="48" fill="#111820"/>
+      <circle r="35" fill="#303b43" stroke="#879093" stroke-width="3"/>
+      <circle r="25" fill="#151e25" stroke="#aab2ae" stroke-width="2"/>
+      <g stroke="#9ba5a2" stroke-width="4" stroke-linecap="round">
+        <path d="M0-21 V21 M-21 0 H21 M-15-15 L15 15 M15-15 L-15 15"/>
+      </g>
+      <circle r="7" fill="#c6cbc4"/>
+    </g>
+  </defs>
+
+  <rect width="1600" height="650" fill="url(#sky)"/>
+  <circle cx="1230" cy="210" r="118" fill="#efb17f" opacity=".14" filter="url(#glow)"/>
+  <circle cx="1230" cy="210" r="62" fill="#f3c18d" opacity=".9"/>
+  <path d="M0 330 Q210 270 390 326 T780 312 T1160 320 T1600 280 V470 H0Z" fill="url(#horizon)"/>
+
+  <!-- distant ridgelines -->
+  <path d="M0 390 L160 305 270 360 420 270 555 355 730 265 890 365 1060 280 1210 360 1390 270 1600 365 V520 H0Z" fill="#263c46"/>
+  <path d="M0 425 L180 350 330 400 510 325 690 410 900 330 1080 415 1260 345 1450 405 1600 350 V535 H0Z" fill="#1b3039"/>
+  <path d="M405 278 L420 270 438 289 425 285 415 294Z M714 282 L730 265 752 291 733 283 724 296Z M1040 297 L1060 280 1082 305 1063 296 1051 310Z" fill="#d2d6d0" opacity=".55"/>
+
+  <!-- forest layers -->
+  <g opacity=".72">
+    <use xlink:href="#pine" transform="translate(80 250) scale(.9)"/>
+    <use xlink:href="#pine" transform="translate(205 290) scale(.72)"/>
+    <use xlink:href="#pine" transform="translate(365 260) scale(.86)"/>
+    <use xlink:href="#pine" transform="translate(1320 255) scale(.85)"/>
+    <use xlink:href="#pine" transform="translate(1450 270) scale(1.02)"/>
+    <use xlink:href="#pine" transform="translate(1560 235) scale(.9)"/>
+  </g>
+  <g class="passing-trees">
+    <use xlink:href="#pine" transform="translate(25 305) scale(1.25)"/>
+    <use xlink:href="#pine" transform="translate(350 325) scale(1.05)"/>
+    <use xlink:href="#pine" transform="translate(760 325) scale(1.2)"/>
+    <use xlink:href="#pine" transform="translate(1180 315) scale(1.1)"/>
+    <use xlink:href="#pine" transform="translate(1530 300) scale(1.25)"/>
+  </g>
+
+  <!-- road and verge -->
+  <path d="M0 470 Q800 420 1600 470 V650 H0Z" fill="#26363b"/>
+  <path d="M0 515 Q800 470 1600 515 V650 H0Z" fill="url(#road)"/>
+  <path d="M0 514 Q800 468 1600 514" fill="none" stroke="#d7a47d" stroke-width="3" opacity=".5"/>
+  <g class="road-lines" stroke="#e9d8bd" stroke-width="7" stroke-linecap="round" opacity=".7">
+    <path d="M-120 590 H-20 M130 582 H220 M430 572 H520 M790 568 H880 M1160 574 H1250 M1480 585 H1580"/>
+  </g>
+  <ellipse cx="835" cy="553" rx="480" ry="38" fill="#050b10" opacity=".52" filter="url(#shadow)"/>
+
+  <!-- van body animation -->
+  <g class="van">
+    <!-- roof rack and pop-top -->
+    <path d="M480 292 Q486 250 530 240 L880 240 Q918 243 935 278 L946 307 H485Z" fill="#26333a" stroke="#111c24" stroke-width="7"/>
+    <path d="M520 240 L545 190 Q554 174 580 174 H820 Q850 176 865 199 L890 240Z" fill="#d9ddd6" stroke="#29363d" stroke-width="8"/>
+    <path d="M565 195 H820 L850 232 H545Z" fill="#293d48"/>
+    <path d="M590 200 H810" stroke="#8fa0a0" stroke-width="3" opacity=".65"/>
+    <path d="M510 244 H925" stroke="#111c24" stroke-width="8"/>
+    <path d="M545 232 H915" stroke="#9ca7a4" stroke-width="4"/>
+    <path d="M570 222 H900" stroke="#101b23" stroke-width="5"/>
+
+    <!-- main body -->
+    <path d="M390 315 Q408 283 456 280 L944 280 Q1005 281 1042 331 L1105 426 Q1122 450 1114 492 L1108 520 H348 L350 397 Q351 342 390 315Z"
+          fill="url(#vanBody)" stroke="#17232b" stroke-width="9"/>
+    <path d="M370 412 H1098 L1110 482 H357Z" fill="#59666b" opacity=".22"/>
+    <path d="M397 318 Q420 295 462 295 H934 Q982 295 1015 335 L1058 401 H368Z" fill="#eef0e9" opacity=".45"/>
+    <!-- windshield -->
+    <path d="M865 300 H938 Q975 302 1002 339 L1048 408 H856Z" fill="url(#glass)" stroke="#26353d" stroke-width="7"/>
+    <path d="M884 309 L930 309 Q967 312 988 344 L1025 397 H884Z" fill="#91a2a3" opacity=".16"/>
+    <path d="M855 300 V410" stroke="#27343b" stroke-width="8"/>
+    <path d="M1000 338 L1047 408" stroke="#819092" stroke-width="3" opacity=".5"/>
+    <!-- side windows -->
+    <path d="M470 305 H655 Q675 305 675 326 V405 H438 L446 333 Q449 309 470 305Z" fill="url(#glass)" stroke="#26343b" stroke-width="7"/>
+    <path d="M692 305 H823 V405 H692Z" fill="url(#glass)" stroke="#26343b" stroke-width="7"/>
+    <path d="M458 394 L468 326 H652" fill="none" stroke="#9baaaa" stroke-width="3" opacity=".35"/>
+    <path d="M707 319 H810" stroke="#9baaaa" stroke-width="3" opacity=".3"/>
+    <!-- warm interior glow -->
+    <path d="M480 312 H648 V397 H480Z" fill="#d59b60" opacity=".1"/>
+    <path d="M510 318 H620" stroke="#e9bd83" stroke-width="3" opacity=".45"/>
+    <!-- door seams and handle -->
+    <path d="M682 292 V511 M840 294 V510" stroke="#687579" stroke-width="3" opacity=".8"/>
+    <rect x="790" y="426" width="38" height="7" rx="3.5" fill="#37434a"/>
+    <rect x="930" y="426" width="35" height="7" rx="3.5" fill="#37434a"/>
+    <!-- front grille and bumper -->
+    <path d="M1043 423 Q1092 423 1107 455 L1107 485 H1037Z" fill="#26343b"/>
+    <path d="M1050 441 H1093 M1048 453 H1100 M1045 465 H1103" stroke="#87918f" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1034 490 H1110 L1102 519 H1034Z" fill="#1b252c"/>
+    <!-- headlights -->
+    <path d="M1013 411 Q1044 405 1060 423 L1050 443 H1019Z" fill="url(#lamp)" stroke="#344149" stroke-width="4"/>
+    <ellipse cx="1038" cy="425" rx="30" ry="16" fill="#ffdca2" opacity=".22" filter="url(#glow)"/>
+    <path d="M360 432 H385 V472 H357Z" fill="#d66e53"/>
+    <!-- wheels -->
+    <g transform="translate(490 510)"><use xlink:href="#wheel"/></g>
+    <g transform="translate(960 510)"><use xlink:href="#wheel"/></g>
+    <!-- wheel arches -->
+    <path d="M418 510 Q425 452 490 452 Q555 452 562 510" fill="none" stroke="#27343b" stroke-width="13"/>
+    <path d="M888 510 Q895 452 960 452 Q1025 452 1032 510" fill="none" stroke="#27343b" stroke-width="13"/>
+    <path d="M350 520 H1110" stroke="#202c33" stroke-width="11"/>
+    <path d="M390 492 H420 M1040 492 H1080" stroke="#9ca5a1" stroke-width="4" opacity=".6"/>
+  </g>
+
+  <!-- foreground roadside silhouettes -->
+  <g fill="#101e25" opacity=".9">
+    <path d="M0 535 Q90 515 170 540 T340 540 V650 H0Z"/>
+    <path d="M1270 530 Q1370 505 1460 540 T1600 530 V650 H1270Z"/>
+  </g>
+
+  <!-- greeting -->
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="104" y="142" fill="#f4f1e8" font-size="66" font-weight="650" letter-spacing="-2">Hi, I'm Mohammad</text>
+    <rect x="108" y="169" width="82" height="5" rx="2.5" fill="#e7a879"/>
+    <text x="108" y="211" fill="#d4d9d5" font-size="24" font-weight="400" letter-spacing="2.5">CODE • CREATE • EXPLORE</text>
+    <text x="108" y="252" fill="#b9c5c3" font-size="19" letter-spacing="1.1">Always taking the scenic route.</text>
+  </g>
+
+  <style>
+    .van { transform-origin: 720px 510px; animation: cruise 2.8s ease-in-out infinite; }
+    .passing-trees { animation: drift 16s linear infinite; }
+    .road-lines { animation: road 2.6s linear infinite; }
+    @keyframes cruise { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+    @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-420px); } }
+    @keyframes road { from { transform: translateX(0); } to { transform: translateX(-300px); } }
+    @media (prefers-reduced-motion: reduce) {
+      .van, .passing-trees, .road-lines { animation: none; }
+    }
+  </style>
+</svg>
