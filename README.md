@@ -1,1 +1,10 @@
-<h1 align="center">hi, i am mohammad 👋</h1> <p align="center"> <img src="van.svg" width="100%" alt="camper van driving through the trees"> </p> <p align="center"> i write python, build little desktop stuff, and dream about road trips 🚐🌲 </p> <h3 align="center">🛠 what i use</h3> <p align="center"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/PyQt5-41CD52?style=for-the-badge&logo=qt&logoColor=white" alt="PyQt5"> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"> </p>
+
+<h1 align="center">Hi, I'm Mohammad 👋</h1>
+
+<p align="center">
+  <img src="./Van.svg" alt="Mohammad's Camper Van" width="100%" />
+</p>
+
+<p align="center">
+  Code • Create • Explore
+</p>
