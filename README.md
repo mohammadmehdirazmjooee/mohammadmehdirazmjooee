@@ -1,16 +1,21 @@
-## Hi there 👋
+<h1 align="center">سلام، من محمدمهدی هستم 👋</h1>
 
-<!--
-**mohammadmehdirazmjooee/mohammadmehdirazmjooee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif" width="250" alt="گیف تست">
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  برنامه‌نویس پایتون | عاشق ساخت پروژه‌های دسکتاپ
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <a href="https://github.com/mohammadmehdirazmjooee">پروفایل من</a>
+</p>
+
+<h3 align="center">🛠 مهارت‌ها</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/PyQt5-41CD52?style=for-the-badge&logo=qt&logoColor=white" alt="PyQt5">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+</p>
